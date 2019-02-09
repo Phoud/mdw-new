@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+.is-nav-color {
+    background-color: #303fd9;
+}
+
+.nav-item-menu {
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+    color: white;
+}
+
+.logo {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.menu {
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.feature-text {
+    color: white;
+    font-size: 50px;
+    letter-spacing: -1.55px;
+    line-height: 1.18;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.sub-feature {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.feature-contact {
+    color: #031b4e;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.get-started {
+    color: #0069ff;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+button.button.contact-button {
+    background-color: #303fd9;
+    margin-top: 20px;
+}
+
+.button.is-info:hover,
+.button.is-info.is-hovered {
+    background-color: #1633ff;
+    border-color: transparent;
+    color: #fff;
+}
+
+.hidden {
+    padding-top: 0;
+    position: relative;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: auto !important;
+    height: auto;
+    touch-action: none;
+    touch-action: unset;
+}
+
+.contact-info {
+    color: #fff;
+}
+
+.contact {
+    margin-right: 143px;
+}
+
+.is-gray {
+    background-color: #f3f5f9;
+}
+
+.customer-image {
+    margin: auto;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.customer-div {
+    display: flex;
+    margin: auto;
+}
+
+.customer-text {
+    opacity: .4;
+}
+
+.m-b-50 {
+    margin-bottom: 50px;
+}
+
+.highlight-text {
+    margin-top: 35px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sub-text {
+    opacity: .8;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.highlight-icon {
+    margin-top: 40px;
+}
+
+.highlight-topic {
+    margin-top: 10px;
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.highlight-description {
+    margin-top: 10px;
+    opacity: .8;
+    margin-bottom: 40px;
+}
+
+.footer-background {
+    background-color: #010e28;
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.footer-text {
+    margin-top: 10px;
+}
+
+.footer-logo {
+    margin-left: 50px;
+}
+
+.fb {
+    margin-top: 20px;
+}
+
+.subscribe {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
