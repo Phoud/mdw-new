@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-nav-color">
+    <section class="hero is-nav-color background">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
@@ -125,3 +125,10 @@
         }
     }
 </script>
+
+<style scoped>
+  .background{
+    background-image: url('../../assets/background.svg');
+    background-size: cover;
+  }
+</style>
