@@ -5,10 +5,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">The place where your software was born.</h1>
+              <h1 class="feature-text">Software development made easy.</h1>
               <p
                 class="sub-feature"
-              >Have you ever been worried about the price building your platform? if yes, you come the right place where we can build your modern, accessible and more flexible platform with the price you are willing to pay!</p>
+              >We provide a comprehensive software development based in Laos where we can build your modern, accessible and more flexible platform with the price you are willing to pay!</p>
             </div>
             <div class="column">
               <div class="general-from-container is-65">

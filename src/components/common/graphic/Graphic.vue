@@ -5,10 +5,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">The simplest cloud platform for developers & teams</h1>
+              <h1 class="feature-text">Increase your product value by modern graphic design</h1>
               <p
                 class="sub-feature"
-              >Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you’re running one virtual machine or ten thousand.</p>
+              >We provide a graphic design service for all kind of art works with the modern and luxury design concept.</p>
             </div>
             <div class="column">
               <div>
@@ -19,9 +19,17 @@
         </div>
       </div>
     </section>
+    <contact/>
   </div>
 </template>
-
+<script>
+import Contact from '../../partial/Contact'
+export default {
+  components:{
+    Contact
+  }
+}
+</script>
 <style scoped>
   .background{
     background-image: url('../../../assets/background6.svg');
