@@ -5,10 +5,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">The simplest cloud platform for developers & teams</h1>
+              <h1 class="feature-text">The place where your software was born.</h1>
               <p
                 class="sub-feature"
-              >Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you’re running one virtual machine or ten thousand.</p>
+              >Have you ever been worried about the price building your platform? if yes, you come the right place where we can build your modern, accessible and more flexible platform with the price you are willing to pay!</p>
             </div>
             <div class="column">
               <div class="general-from-container is-65">
@@ -18,9 +18,7 @@
                     class="form-represent-top-border form-represent-top-border-z-index"
                     aria-hidden="true"
                   >
-                    <div
-                      class="form-represent-top-border-progress is-hide"
-                    >
+                    <div class="form-represent-top-border-progress is-hide">
                       <div
                         class="form-represent-top-border-progress-img form-represent-top-border-progress-bg-size"
                       ></div>
@@ -45,9 +43,7 @@
                           <!--Header Caption -->
                           <div class="form-represent-form-header-caption">
                             <div class="header-text-centered">
-                              <div class="feature-contact">
-                                Consult Us Now!
-                              </div>
+                              <div class="feature-contact">Consult Us Now!</div>
                               <div class="headingSubtext">
                                 <content class="get-started">It's Free!</content>
                               </div>
@@ -71,7 +67,6 @@
                                       />
                                       <div class="general-input-spacing"></div>
                                       <Input
-                                    
                                         v-model="user.password"
                                         :inputType="'email'"
                                         :labelText="'Email'"
@@ -87,10 +82,9 @@
                               </content>
                               <!--Input element -->
                               <!--Action-->
-
-                            
-                                  
-                                  <button class="button is-info is-fullwidth is-large contact-button">Contact Us</button>
+                              <button
+                                class="button is-info is-fullwidth is-large contact-button"
+                              >Contact Us</button>
 
                               <!--Action-->
                             </div>
@@ -114,21 +108,20 @@
 </template>
 
 <script>
-    export default {
-        name: "login",
-        data() {
-            return {
-                user: {}
-            }
-        },
-        methods: {
-        }
-    }
+export default {
+  name: "login",
+  data() {
+    return {
+      user: {}
+    };
+  },
+  methods: {}
+};
 </script>
 
 <style scoped>
-  .background{
-    background-image: url('../../assets/background.svg');
-    background-size: cover;
-  }
+.background {
+  background-image: url("../../assets/background.svg");
+  background-size: cover;
+}
 </style>

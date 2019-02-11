@@ -12,7 +12,7 @@
             </div>
             <div class="column">
               <div>
-               <img src="../../assets/graphic.svg" alt="web">
+               <img src="../../../assets/windows1.svg" alt="web">
               </div>
             </div>
           </div>
@@ -24,7 +24,7 @@
 
 <style scoped>
   .background{
-    background-image: url('../../assets/background6.svg');
+    background-image: url('../../../assets/background2.svg');
     background-size: cover;
   }
 </style>

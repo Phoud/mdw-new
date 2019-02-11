@@ -156,3 +156,11 @@ button.button.contact-button {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+.web-button {
+    margin-top: 30px;
+}
+
+.web-button-text {
+    color: white;
+}

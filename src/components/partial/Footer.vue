@@ -209,6 +209,8 @@
           <a class="navbar-item nav-item-menu">Our Customers</a>
           
           <a class="navbar-item nav-item-menu">Community</a>
+
+          <a class="navbar-item nav-item-menu">Event</a>
         </div>
       </div>
       <div class="column">
