@@ -5,23 +5,39 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">The simplest cloud platform for developers & teams</h1>
+              <h1 class="feature-text">Fast and Reliable maintenance service. Your software is like ours.</h1>
               <p
                 class="sub-feature"
-              >Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you’re running one virtual machine or ten thousand.</p>
+              >We treat your software like our software with a reasonable price that you are willing to pay.</p>
             </div>
             <div class="column">
               <div>
-               <img src="../../../assets/maintenance.svg" alt="web">
+               <img src="../../../assets/maintenance.svg" alt="maintenance">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <type-of-maintenance/>
+    <contact/>
   </div>
 </template>
+<script>
+import TypeOfMaintenance from './TypeOfMaintenance'
+import Contact from '../../partial/Contact'
+export default {
+  data(){
+    return{
 
+    }
+  },
+  components:{
+    TypeOfMaintenance,
+    Contact
+  }
+}
+</script>
 <style scoped>
   .background{
     background-image: url('../../../assets/background.svg');

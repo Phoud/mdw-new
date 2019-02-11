@@ -5,10 +5,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">The simplest cloud platform for developers & teams</h1>
+              <h1 class="feature-text">Computer Software made easy</h1>
               <p
                 class="sub-feature"
-              >Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you’re running one virtual machine or ten thousand.</p>
+              >We develop all kind of Computer Software running on Windows Operating System along with your business need.</p>
             </div>
             <div class="column">
               <div>
@@ -19,8 +19,26 @@
         </div>
       </div>
     </section>
+    <type-of-windwos-app/>
+    <contact/>
   </div>
 </template>
+
+<script>
+import TypeOfWindwosApp from './TypeOfWindwsApp'
+import Contact from '../../partial/Contact'
+export default {
+  data(){
+    return{
+
+    }
+  },
+  components:{
+    TypeOfWindwosApp,
+    Contact
+  }
+}
+</script>
 
 <style scoped>
   .background{

@@ -7,7 +7,7 @@
             <p class="highlight-text">Want to know more? Contact us now!</p>
             <p
               class="sub-text"
-            >We provide a <strong>Free</strong> consultancy to innovate your business. Just fill the form below to make an appointment and we are good to go!</p>
+            >We provide a <strong>Free</strong> consultancy to your business in terms of innovation and software development. Just fill out the form below to make an appointment with us and let's see what we can help you!</p>
           </div>
 
           <div class="form-represent-form-container">
