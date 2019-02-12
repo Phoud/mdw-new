@@ -8,6 +8,7 @@ import Maintenance from '../components/common/maintenance/Maintenance.vue'
 import Graphic from '../components/common/graphic/Graphic.vue'
 import Consult from '../components/common/consult/Consult.vue'
 import Portfolio from '../components/common/portfolio/Portfolio.vue'
+import Customer from '../components/common/customer/Customer.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -50,6 +51,11 @@ export default new Router({
             path: '/portfolio',
             name: 'Portfolio',
             component: Portfolio
+        },
+        {
+            path: '/customer',
+            name: 'Customer',
+            component: Customer
         }
     ]
 })
