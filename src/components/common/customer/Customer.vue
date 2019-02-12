@@ -12,7 +12,7 @@
             </div>
             <div class="column">
               <div>
-               <img src="../../../assets/portfolio.svg" alt="web">
+               <img src="../../../assets/customer.svg" alt="web">
               </div>
             </div>
           </div>

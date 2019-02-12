@@ -25,7 +25,7 @@
               <p class="company-title">{{ info.name }}</p>
               <div class="company-description">
                 <p class="company-text">{{ info.description }}</p>
-                <a class="button is-link is-outlined is-seemore">See more</a>
+                <a :href="info.link" class="button is-link is-outlined is-seemore">See more</a>
               </div>
             </div>
           </div>
@@ -36,13 +36,13 @@
 </template>
 <script>
 import img1 from "../../../assets/logo.svg";
-import img2 from '../../../assets/jaol.png';
+import img2 from "../../../assets/jaol.png";
 import img3 from "../../../assets/pmi.png";
-import img4 from '../../../assets/spoon.png';
+import img4 from "../../../assets/spoon.png";
 import img5 from "../../../assets/jobjibjib.jpg";
-import img6 from '../../../assets/108service.jpg';
-import img7 from '../../../assets/laoffer.jpg';
-import img8 from '../../../assets/royal.jpg';
+import img6 from "../../../assets/108service.jpg";
+import img7 from "../../../assets/laoffer.jpg";
+import img8 from "../../../assets/royal.jpg";
 import { Carousel, Slide } from "vue-carousel";
 export default {
   data() {
@@ -52,49 +52,57 @@ export default {
           image: img1,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img2,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img3,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img4,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img5,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img6,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img7,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         },
         {
           image: img8,
           name: "108-1009 Group.,ltd",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos."
+            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
+          link: ""
         }
       ]
     };
@@ -123,8 +131,8 @@ export default {
 .is-seemore {
   margin-top: 15px;
 }
-.company-image{
-    width: 450px;
-    height: 310px;
+.company-image {
+  width: 420px;
+  height: 310px;
 }
 </style>
