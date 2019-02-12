@@ -5,42 +5,37 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="feature-text">Move your business to the next level by building your own mobile app with us</h1>
+              <h1 class="feature-text">Let's these works define our good works!</h1>
               <p
                 class="sub-feature"
-              >Build your Android and iOS applications with us with the afforable price to reach more customers and make everything easy for you.</p>
+              >We have done quite many projects for both busineses and organizations. They trust us and you too!</p>
             </div>
             <div class="column">
               <div>
-                <img src="../../../assets/mobile2.svg" alt="App">
+               <img src="../../../assets/portfolio.svg" alt="web">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <type-of-app/>
+    <portfolio-area/>
     <contact/>
   </div>
 </template>
 <script>
-import TypeOfApp from './TypeOfApp'
 import Contact from '../../partial/Contact'
+import PortfolioArea from './PortfolioArea'
 export default {
-  data(){
-    return{
-
-    }
-  },
   components:{
-    TypeOfApp,
-    Contact
+    Contact,
+    PortfolioArea
   }
 }
 </script>
 <style scoped>
-.background {
-  background-image: url("../../../assets/background.svg");
-  background-size: cover;
-}
+  .background{
+    background-image: url('../../../assets/background.svg');
+    background-size: cover;
+  }
 </style>
