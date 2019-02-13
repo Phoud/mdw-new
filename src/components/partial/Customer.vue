@@ -20,7 +20,7 @@
                   <div class="customer-div">
                     <img class="customer-image" src="../../assets/logo.svg" alt>
                   </div>
-                </div>
+                </div> 
 
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">

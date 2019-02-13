@@ -445,31 +445,54 @@
         </div>
 
         <div class="column is-6-mobile is-4-desktop is-6-tablet">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
-<g>
-	<circle fill="#120078" cx="20.496" cy="20.5" r="19.7"/>
-	<path fill="#0E387C" d="M40.196,20.5c0-1.257-0.119-2.487-0.344-3.679l-9.48-9.48l-1.309,2.487l-3.462-3.462l-14.98,26.574
-		l7.058,7.058c0.92,0.132,1.861,0.201,2.818,0.201C31.376,40.2,40.196,31.38,40.196,20.5z"/>
-	<rect x="10.621" y="7.341" fill="#0069FF" width="19.751" height="25.599"/>
-	<rect x="20.492" y="7.341" fill="#0069FF" width="9.879" height="25.599"/>
-	<rect x="12.365" y="8.925" fill="#FFFFFF" width="16.262" height="22.431"/>
-	<rect x="20.492" y="8.925" fill="#EBEEF0" width="8.135" height="22.431"/>
-	<rect x="15.392" y="6.366" fill="#0069FF" width="10.209" height="3.232"/>
-	<rect x="20.492" y="6.366" fill="#0069FF" width="5.108" height="3.232"/>
-	<rect x="18.572" y="14.155" fill="#98B4B6" width="8.349" height="0.885"/>
-	<rect x="20.492" y="14.155" fill="#819899" width="6.429" height="0.885"/>
-	<rect x="18.572" y="19.464" fill="#98B4B6" width="8.349" height="0.885"/>
-	<rect x="20.492" y="19.464" fill="#819899" width="6.429" height="0.885"/>
-	<rect x="18.572" y="24.774" fill="#98B4B6" width="8.349" height="0.885"/>
-	<rect x="20.492" y="24.774" fill="#819899" width="6.429" height="0.885"/>
-	<g>
-		<polygon fill="#120078" points="15.012,16.343 13.445,14.664 14.401,13.772 15.076,14.494 16.986,12.712 17.878,13.668 		"/>
-		<polygon fill="#120078" points="15.012,21.598 13.445,19.919 14.401,19.026 15.076,19.749 16.986,17.966 17.878,18.923 		"/>
-		<polygon fill="#120078" points="15.012,26.853 13.445,25.173 14.401,24.281 15.076,25.004 16.986,23.221 17.878,24.177 		"/>
-	</g>
-</g>
-</svg>
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="41px"
+            height="41px"
+            viewBox="0 0 41 41"
+            enable-background="new 0 0 41 41"
+            xml:space="preserve"
+          >
+            <g>
+              <circle fill="#120078" cx="20.496" cy="20.5" r="19.7"></circle>
+              <path
+                fill="#0E387C"
+                d="M40.196,20.5c0-1.257-0.119-2.487-0.344-3.679l-9.48-9.48l-1.309,2.487l-3.462-3.462l-14.98,26.574
+		l7.058,7.058c0.92,0.132,1.861,0.201,2.818,0.201C31.376,40.2,40.196,31.38,40.196,20.5z"
+              ></path>
+              <rect x="10.621" y="7.341" fill="#0069FF" width="19.751" height="25.599"></rect>
+              <rect x="20.492" y="7.341" fill="#0069FF" width="9.879" height="25.599"></rect>
+              <rect x="12.365" y="8.925" fill="#FFFFFF" width="16.262" height="22.431"></rect>
+              <rect x="20.492" y="8.925" fill="#EBEEF0" width="8.135" height="22.431"></rect>
+              <rect x="15.392" y="6.366" fill="#0069FF" width="10.209" height="3.232"></rect>
+              <rect x="20.492" y="6.366" fill="#0069FF" width="5.108" height="3.232"></rect>
+              <rect x="18.572" y="14.155" fill="#98B4B6" width="8.349" height="0.885"></rect>
+              <rect x="20.492" y="14.155" fill="#819899" width="6.429" height="0.885"></rect>
+              <rect x="18.572" y="19.464" fill="#98B4B6" width="8.349" height="0.885"></rect>
+              <rect x="20.492" y="19.464" fill="#819899" width="6.429" height="0.885"></rect>
+              <rect x="18.572" y="24.774" fill="#98B4B6" width="8.349" height="0.885"></rect>
+              <rect x="20.492" y="24.774" fill="#819899" width="6.429" height="0.885"></rect>
+              <g>
+                <polygon
+                  fill="#120078"
+                  points="15.012,16.343 13.445,14.664 14.401,13.772 15.076,14.494 16.986,12.712 17.878,13.668 		"
+                ></polygon>
+                <polygon
+                  fill="#120078"
+                  points="15.012,21.598 13.445,19.919 14.401,19.026 15.076,19.749 16.986,17.966 17.878,18.923 		"
+                ></polygon>
+                <polygon
+                  fill="#120078"
+                  points="15.012,26.853 13.445,25.173 14.401,24.281 15.076,25.004 16.986,23.221 17.878,24.177 		"
+                ></polygon>
+              </g>
+            </g>
+          </svg>
           <p class="highlight-topic">Information Website</p>
           <p
             class="highlight-description"
