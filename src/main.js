@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import Input from './Input'
 import VueCarousel from 'vue-carousel';
+import store from './store'
 Vue.config.productionTip = false
 
 Vue.use(VueCarousel);
@@ -17,6 +18,7 @@ Vue.component('Input', Input)
     /* eslint-disable no-new */
 new Vue({
     el: '#app',
+    store,
     router,
     components: { App },
     template: '<App/>'

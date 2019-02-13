@@ -7,9 +7,9 @@
                 <div class="my-sidebar-drawer-loginInfo">
                     <div class="sidebar-container">
                         <img class="i-sidebar-content-fill-content i-sidebar-content-replaced-content"
-                             :src="`${baseUrl}/assets/images/logo.png${s.fresh_version}`">
+                             >
                     </div>
-                    <div class="drawer-unlogin" v-if="!LoggedIn()">
+                    <div class="drawer-unlogin">
                         <router-link :to="{ name: 'login' }" @click.native.prevent="maskClick()">
                             <a class="drawer-seeker">
                                 <span class="line-bottom">Sign In</span>
@@ -21,7 +21,7 @@
                             </a>
                         </router-link>
                     </div>
-                    <div class="drawer-unlogin" v-else>
+                    <!-- <div class="drawer-unlogin">
                         <router-link :to="{ name: 'home' }" @click.native.prevent="maskClick()">
                             <a class="drawer-seeker">
                                 <span class="line-bottom">Hello</span>
@@ -32,7 +32,7 @@
                                 <span>Welcome to Jaol</span>
                             </a>
                         </router-link>
-                    </div>
+                    </div> -->
                 </div>
                 <ul class="sidebar-drawer-box">
                     <template>
@@ -118,7 +118,7 @@
                             <span>About</span>
                         </router-link>
                     </li>
-                    <li class="drawer-help" v-if="LoggedIn()">
+                    <li class="drawer-help">
                         <a @click.prevent="setLogout">
                             <i :class="logoutClass" class="sidebar-icon-md fas"></i>
                             <span>Logout</span>
@@ -129,7 +129,7 @@
             </section>
         </div>
         <div class="sidebar-mask" @click="maskClick()" :class="isSidebar==='is-active' ? '' : 'left-side' "
-             v-if="isMobile"></div>
+             ></div>
     </div>
 </template>
 <script>
@@ -138,12 +138,11 @@
     export default {
         data() {
             return {
-                ...mapGetters(['LoggedIn']),
                 logoutClass: 'fa-external-link-square-alt'
             }
         },
         computed: {
-            ...mapState(['isMobile', 'isSidebar', 'authUserInfo']),
+            ...mapState(['isSidebar']),
         },
         watch: {
             isSidebar: function (n, o) {
@@ -152,29 +151,21 @@
                 } else {
                     this.addClasses()
                 }
-            },
-            LoggedIn: function (v) {
-                this.maskClick()
             }
         },
         methods: {
             ...mapMutations(['setSidebar']),
-            ...mapActions(['Logout']),
             removeClasses() {
-                this.jq("body").removeClass("hidden");
-                this.jq("html").removeClass("hidden");
+                $("body").removeClass("hidden");
+                $("html").removeClass("hidden");
             },
             addClasses() {
-                this.jq("html").addClass("hidden");
-                this.jq("body").addClass("hidden");
+                $("html").addClass("hidden");
+                $("body").addClass("hidden");
             },
             maskClick() {
                 this.removeClasses();
                 this.setSidebar({isSidebar: (this.isSidebar === 'is-active' ? 'left-side' : '')});
-            },
-            setLogout() {
-                this.logoutClass = 'fa-spinner';
-                this.Logout();
             },
             isRoute(n) {
                 return this.$route.name === n ? 'is-active' : ''

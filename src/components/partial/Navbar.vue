@@ -91,7 +91,7 @@
           </g>
         </svg>
         </div>
-        <a style="color: white;"
+        <a style="color: white;" @click="showSidebar"
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
@@ -125,3 +125,28 @@
     </nav>
   </div>
 </template>
+<script>
+import {mapState, mapMutations} from 'vuex'
+export default {
+  data(){
+    return{
+       isActive: ''
+    }
+  },
+  computed:{
+    ...mapState(['isSidebar'])
+  },
+  watch:{
+    isSidebar: function(n, o){
+      this.isActive = n==='left-side' ? '': 'is-active'
+    }
+  },
+  methods:{
+    ...mapMutations(['setSidebar']),
+    showSidebar() {
+                this.isActive = this.isActive === 'is-active' ? '' : 'is-active';
+                this.setSidebar({isSidebar: this.isActive})
+            }
+  }
+}
+</script>
