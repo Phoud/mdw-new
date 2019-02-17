@@ -9,7 +9,7 @@
       </div>
       <div class="columns highlight-icon is-multiline is-mobile is-desktop is-tablet">
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -40,7 +40,7 @@
           >Manage your store with a convinient software to lower your cost and minimize your staff.</p>
         </div>
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -97,7 +97,7 @@
           >Manage your wharehouse and inventory with our software to make your works more easier, faster and efficient.</p>
         </div>
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -155,7 +155,7 @@
           >Are you tired using Microsoft Excel calculating your finance? if yes, creating an accounting software will make it easier, faster and more accurate.</p>
         </div>
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -232,7 +232,7 @@
             class="highlight-description"
           >Manage your students, teachers and registration easily using our software. Our software will help your works more easy, fast and efficient.</p>
         </div>
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -265,7 +265,7 @@
             class="highlight-description"
           >Managing your employee with software will help reduce your works and make everything easy.</p>
         </div>
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>
@@ -292,7 +292,7 @@
             class="highlight-description"
           >Are you tired taking order by writing? We offer a restaurant software to help your daily works in restaurant more easy for example managing orders accurately.</p>
         </div>
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <g>

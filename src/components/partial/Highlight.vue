@@ -8,7 +8,7 @@
         >The reason that most businesses trust our service. And you too we will serve the best we can do.</p>
       </div>
       <div class="columns highlight-icon is-multiline is-mobile is-desktop is-tablet">
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -46,9 +46,9 @@
           <p class="highlight-topic">Reasonable Price</p>
           <p
             class="highlight-description"
-          >Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+          >Have you ever been worried about the price it may cost in developing your software? if yes, you come the right place. Here we charge like freelancer with the premium products.</p>
         </div>
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -237,9 +237,9 @@
           <p class="highlight-topic">Finish faster</p>
           <p
             class="highlight-description"
-          >Free round-the-clock technical support for all customers. You’ll feel the love.</p>
+          >Developing Software doesn't mean to use that much time as you might have heard before. We use new technologies plus 24/7 works. That's the reason we finish faster. </p>
         </div>
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -380,7 +380,7 @@
           <p class="highlight-topic">Latest Technology</p>
           <p
             class="highlight-description"
-          >More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+          >We always use latest technologies no matter how much your project costs. Once we do, we do our best. Because yours is like ours.</p>
         </div>
       </div>
     </div>

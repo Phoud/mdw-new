@@ -10,7 +10,7 @@
         >We make it easy for you to make an application with the price you are willing to pay.</p>
       </div>
       <div class="columns highlight-icon is-multiline is-mobile is-desktop is-tablet">
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -58,7 +58,7 @@
           >Native Android Application with modern design, scalable, and customizable.</p>
         </div>
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -87,7 +87,7 @@
           >Native iOS Application with modern design, scalable and customizable.</p>
         </div>
 
-        <div class="column is-6-mobile is-6-desktop is-6-tablet">
+        <div class="column is-12-mobile is-6-desktop is-6-tablet">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="41px" height="41px" viewBox="0 0 41 41" enable-background="new 0 0 41 41" xml:space="preserve">
 <circle fill="#0069FF" cx="20.5" cy="20.5" r="20.083"/>

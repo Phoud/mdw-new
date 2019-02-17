@@ -8,7 +8,7 @@
         >The best web development tools, latest Technology and trendy design are the factors we consider to bring you the best you deserve!</p>
       </div>
       <div class="columns highlight-icon is-multiline is-mobile is-desktop is-tablet">
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -88,7 +88,7 @@
             class="highlight-description"
           >This pure coding website based on your need is a unique website which is scalable, customizable and more flexible. It's suitable for medium and large scale website.</p>
         </div>
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -138,7 +138,7 @@
             class="highlight-description"
           >Content Management System is suitable for small and medium size website. You can choose a thousand themes yourself and it's quite cheap!</p>
         </div>
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -208,7 +208,7 @@
           >Change your offline management system into online system (Web based system) to make it more accessible and easy to manage wherever you go!</p>
         </div>
 
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -265,7 +265,7 @@
           >Build your marketplace more accessible and easy to use with the modern design supporting all devices and comprehensive e-commerce functions.</p>
         </div>
 
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
@@ -444,7 +444,7 @@
           >Becaue design and user experience that matter, so we do focus on design to make your site more friendly and usable in all devices. We create yours as ours!</p>
         </div>
 
-        <div class="column is-6-mobile is-4-desktop is-6-tablet">
+        <div class="column is-12-mobile is-4-desktop is-6-tablet">
           <svg
             version="1.1"
             id="Layer_1"
