@@ -29,7 +29,7 @@ a.navbar-item.is-active,
     font-size: 50px;
     letter-spacing: -1.55px;
     line-height: 1.18;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 30px;
 }
 
@@ -163,4 +163,28 @@ button.button.contact-button {
 
 .web-button-text {
     color: white;
+}
+
+.dropdown-trigger {
+    margin-top: 18px;
+}
+
+.dropdown-menu {
+    top: 66%;
+    min-width: 25rem;
+}
+
+.service-item {
+    font-size: 16px;
+    color: rgba(3, 27, 78, .7);
+}
+
+.service-sub-title {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.dropdown-section {
+    margin-bottom: 20px;
+    margin-top: 12px;
 }
