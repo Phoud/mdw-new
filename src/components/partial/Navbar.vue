@@ -2,6 +2,7 @@
   <div>
     <nav class="navbar is-nav-color" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
+        <a href="/">
         <div class="logo">
           <svg
             version="1.1"
@@ -96,6 +97,7 @@
             </g>
           </svg>
         </div>
+        </a>
         <a
           style="color: white;"
           @click="showSidebar"

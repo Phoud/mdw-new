@@ -10,7 +10,7 @@
                 class="sub-feature"
               >Latest technologies and modern design have been applied to our every development to make your website modern, friendly, fast and accessible in order to reach your customers and prospects.</p>
             <div class="web-button">
-              <a class="button is-info is-inverted is-outlined is-large">See our portfolios</a>
+              <a href="/portfolio" class="button is-info is-inverted is-outlined is-large">See our portfolios</a>
             </div>
             
             </div>
