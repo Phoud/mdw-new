@@ -60,21 +60,25 @@
                                     <!--Start input-->
                                     <content>
                                       <Input
-                                        v-model="user.email"
+                                        v-model="name"
                                         :inputType="'text'"
                                         :labelText="'Name'"
                                         :validate="{text: ''}"
                                       />
                                       <div class="general-input-spacing"></div>
                                       <Input
-                                        v-model="user.password"
+                                        v-model="email"
                                         :inputType="'email'"
                                         :labelText="'Email'"
                                         :validate="{text: ''}"
                                         :showPasswordButton="true"
                                         :autoComplete="'current-password'"
                                       />
-                                      <textarea class="textarea" placeholder="Message"></textarea>
+                                      <textarea
+                                        class="textarea"
+                                        v-model="message"
+                                        placeholder="Message"
+                                      ></textarea>
                                     </content>
                                     <!--End input-->
                                   </div>
@@ -83,6 +87,7 @@
                               <!--Input element -->
                               <!--Action-->
                               <button
+                                @click="sendContact"
                                 class="button is-info is-fullwidth is-large contact-button"
                               >Contact Us</button>
 
@@ -112,10 +117,27 @@ export default {
   name: "login",
   data() {
     return {
-      user: {}
+      name: "",
+      email: "",
+      message: ""
     };
   },
-  methods: {}
+  methods: {
+    sendContact() {
+      let formData = new FormData();
+      formData.append("name", this.name);
+      formData.append("email", this.email);
+      formData.append("message", this.message);
+      axios.post("http://localhost:8000/postContact", formData, {
+        headers: {
+          "Content-Type": "application/json",
+          "X-Requested-With": "XMLHttpRequest"
+        }
+      }).then(res =>{
+        console.log(res);
+      });
+    }
+  }
 };
 </script>
 

@@ -6,10 +6,11 @@ import router from './router'
 import Input from './Input'
 import VueCarousel from 'vue-carousel';
 import store from './store'
+import axios from 'axios'
 Vue.config.productionTip = false
 
 Vue.use(VueCarousel);
-
+Vue.use(axios)
 require('../css/bulma.css');
 require('../css/style.css');
 require('../css/form.css');

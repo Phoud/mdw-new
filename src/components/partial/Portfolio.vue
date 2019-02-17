@@ -4,10 +4,10 @@
       <div class="hero-body">
         <div class="container">
           <div class="has-text-centered m-b-50">
-            <p class="highlight-text">What we have done</p>
+            <p class="highlight-text">What we have done.</p>
             <p
               class="sub-text"
-            >The reason that most businesses trust our service. And you too we will serve the best we can do.</p>
+            >Here are some of our works we have done so far. Most of our customers trust us and you too.</p>
           </div>
           <carousel
            :perPage="1" 
@@ -18,20 +18,64 @@
            >
             <slide>
                 <div class="has-text-centered">
-                    <img src="../../assets/carousel1.jpg" alt>
+                  <a href="https://108.jobs/" target="_blank">
+                    <img src="../../assets/portfolio/108job.png" alt>
+                  </a>
+                    
                 </div>
             
             </slide>
             <slide>
                 <div class="has-text-centered">
-              <img src="../../assets/carousel2.jpg" alt>
+                  <a href="http://pmimfi.com/" target="_blank">
+              <img src="../../assets/portfolio/pmi.png" alt>
+                  </a>
                 </div>
             </slide>
             <slide>
                 <div class="has-text-centered">
-              <img src="../../assets/carousel3.jpg" alt>
+                  <a href="http://108service.la/" target="_blank">
+              <img src="../../assets/portfolio/108service.png" alt>
+                  </a>
                 </div>
             </slide>
+            <slide>
+                <div class="has-text-centered">
+                  <a href="http://www.spoon.la/" target="_blank">
+              <img src="../../assets/portfolio/spoon.png" alt>
+                  </a>
+                </div>
+            </slide>
+            <slide>
+                <div class="has-text-centered">
+                  <a href="http://bizhub.la/" target="_blank">
+              <img src="../../assets/portfolio/bizhub.png" alt>
+                  </a>
+                </div>
+            </slide>
+
+            <slide>
+                <div class="has-text-centered">
+                  <a href="http://www.jobjibjib.la/" target="_blank">
+              <img src="../../assets/portfolio/jibjib.png" alt>
+                  </a>
+                </div>
+            </slide>
+            <slide>
+                <div class="has-text-centered">
+                  <a href="https://laoffer.la/" target="_blank">
+              <img src="../../assets/portfolio/laoffer.png" alt>
+                  </a>
+                </div>
+            </slide>
+            <slide>
+                <div class="has-text-centered">
+                  <a href="http://www.royalexpress.la/" target="_blank">
+              <img src="../../assets/portfolio/royal.png" alt>
+                  </a>
+                </div>
+            </slide>
+
           </carousel>
         </div>
       </div>

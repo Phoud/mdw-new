@@ -25,7 +25,7 @@
               <p class="company-title">{{ info.name }}</p>
               <div class="company-description">
                 <p class="company-text">{{ info.description }}</p>
-                <a :href="info.link" class="button is-link is-outlined is-seemore">See more</a>
+                <a :href="info.link" target="_blank" class="button is-link is-outlined is-seemore">See more</a>
               </div>
             </div>
           </div>
@@ -53,56 +53,55 @@ export default {
           name: "108-1009 Group.,ltd",
           description:
             "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+          link: "https://108.jobs/"
         },
         {
           image: img2,
-          name: "108-1009 Group.,ltd",
-          description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+          name: "Japan Alumni Of Laos",
+          description: "Japan Alumni Of Laos (JAOL) is an alumni association based in Vientiane Capital, Laos. The association helps promote Laos and Japan relations as well as the socio-economic promotion.",
+          link: "http://jaol.org"
         },
         {
           image: img3,
-          name: "108-1009 Group.,ltd",
+          name: "Phetoulay Microfinance Institution",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "Phetoulay Microfinance Institution is a microfinance Company based in Vientiane Capital, Laos.",
+          link: "http://pmimfi.com/"
         },
         {
           image: img4,
-          name: "108-1009 Group.,ltd",
+          name: "Spoon",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "Spoon is an online platform where people can find food, restaurants and learn how to cook.",
+          link: "http://www.spoon.la/"
         },
         {
           image: img5,
-          name: "108-1009 Group.,ltd",
+          name: "Jobjibjib",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "Jobjibjib is an online job recruiting platform where people can find and apply for a job mostly part-time jobs.",
+          link: "http://www.jobjibjib.la/"
         },
         {
           image: img6,
-          name: "108-1009 Group.,ltd",
+          name: "108 Service",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "108 Service is an online platform where technicians and general people meet. People can find technicians in this platform very easily.",
+          link: "http://108service.la/"
         },
         {
           image: img7,
-          name: "108-1009 Group.,ltd",
+          name: "Laoffer",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "Laoffer is an online marketplace based in Vientiane Capital, Laos. It is the place where people can buy and sell Lao Products.",
+          link: "https://laoffer.la/"
         },
         {
           image: img8,
-          name: "108-1009 Group.,ltd",
+          name: "Royal Supermarket",
           description:
-            "108-1009 Group is a recruiting and Media Company based in Vientiane Capital, Laos.",
-          link: ""
+            "Royal Supermarket is a big supermarket based in Vientiane Capital, Laos. They sell thousand of products on the online platform we had built for them.",
+          link: "http://www.royalexpress.la/"
         }
       ]
     };
